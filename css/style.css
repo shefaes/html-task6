@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+        background-color: white;
+        padding: 20px 5rem;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+}
+.left{
+    
+    width: 40%;
+    
+}
+.left a{
+    margin-left: 20px;
+    color: black;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.center{
+text-align: center;
+    width: 20%;
+   
+}
+a:hover{
+    color: rgb(124, 26, 26);
+}
+.right{
+   text-align: right;
+   width: 40%;
+   font-size: 15px;
+}
+.right a{
+    margin-left: 20px;
+    color: black;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.right a  span{
+    margin-left: 2 0px;  
+} 
+  .s-all{
+    display: flex;
+    background-color: rgba(255, 235, 205, 0.87);
+    justify-content: space-between;
+}
+  .s-left{
+    width: 48%;
+  }
+  .s-left h2{
+    padding-bottom: 20px;
+  }
+  .s-right{
+    width: 40%;
+  }
+  .s-right img{
+    width: 50%;
+  }
+  .s-left{
+    text-align: center;
+    padding: 100px;
+  }
+  .All{
+    display: flex;
+    padding-top: 20px;
+  }
+  .Allbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .box1{
+    width: 22%;
+    text-align: center;
+    position: relative;
+  }
+  .box1 img{
+    width: 100%;
+    padding: 20px;
+  }
+  .box1 p{
+   color: #634545;
+  }
+  .Allbox .box1 span{
+    color: rgb(32, 32, 32);
+    position: absolute;
+    margin: 25px;
+    top: 0;
+    left: 0;
+  }
+  section{
+    width: 100%;
+    padding: 40px;
+    border: 1px solid rgb(199, 190, 190);
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    
+  }
+  .allbox2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+  }
+  .allbox2 .box2{
+    padding: 10px;
+    border-radius: 1px solid grey;
+  }
+  
+ .allbox2 .box2 ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 10px;
+ }
+ .allbox2 .box2 ul li a{
+    color: gray;
+ }
+
+.end2{
+ padding: auto;
+ display: flex;
+ align-items: center;
+}
+.end2-left{
+   display: flex;
+   justify-items: center;
+    margin-left: 40px;
+    padding: 10px;
+   
+
+}
+.end2-left a{
+  color: rgb(88, 83, 83);
+}
+.end2-right{
+  text-align: right;
+  width: 90%;
+  font-size: 15px;
+}
+.end2-right span{
+  color: rgb(88, 83, 83);
+}
+.end2-right i{
+  margin: 10px;
+}
+
+      
+      
+
+
+  
+  
+
+ 
+  
